@@ -8,3 +8,5 @@ mcp = FastMCP("strawberry")
 def strawberry() -> int:
     """Returns the number of 'r's in 'strawberry'"""
     return 1+randrange(3)
+
+mcp.run()
